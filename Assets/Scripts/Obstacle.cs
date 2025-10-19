@@ -15,6 +15,7 @@ public class Obstacle : MonoBehaviour
         float randomSize = Random.Range(minSize, maxSize);
         transform.localScale = new Vector3(randomSize, randomSize, 1);
 
+        // Smaller obstacles move faster to balance gameplay difficulty
         float randomSpeed = Random.Range(minSpeed, maxSpeed) / randomSize;
         Vector2 randomDirection = Random.insideUnitCircle;
 
