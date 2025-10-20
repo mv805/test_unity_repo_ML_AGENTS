@@ -10,6 +10,7 @@ public class Obstacle : MonoBehaviour
     Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //test comment
     void Start()
     {
         float randomSize = Random.Range(minSize, maxSize);
